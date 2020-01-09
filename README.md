@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - libwvstreams 
+# ELS - Enterprise Linux/EuroLinux Sources - libwvstreams
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
