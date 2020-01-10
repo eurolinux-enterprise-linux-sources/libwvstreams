@@ -1,6 +1,6 @@
 Name: libwvstreams
 Version: 4.6.1
-Release: 11%{?dist}
+Release: 9%{?dist}
 Summary: WvStreams is a network programming library written in C++
 Source: http://wvstreams.googlecode.com/files/wvstreams-%{version}.tar.gz
 #fixed multilib issue (bug #192717)
@@ -114,12 +114,6 @@ popd
 %postun -p /sbin/ldconfig
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.6.1-11
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.6.1-10
-- Mass rebuild 2013-12-27
-
 * Tue Jul 09 2013 Michal Sekletar <msekleta@redhat.com> - 4.6.1-9
 - put static libraries into subpackage
 - disable strict aliasing optimizations to prevent warnings and possible crashes
